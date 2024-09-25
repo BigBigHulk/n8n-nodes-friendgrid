@@ -1,5 +1,5 @@
 {
-  "name": "n8n-nodes-friendgrid",
+  "name": "n8n-nodes-custom",
   "version": "0.1.0",
   "description": "",
   "keywords": [
@@ -38,7 +38,8 @@
     "credentials": [
     ],
     "nodes": [
-      "dist/nodes/FriendGrid/FriendGrid.node.js"
+      "dist/nodes/FriendGrid/FriendGrid.node.js",
+      "dist/nodes/NasaPics/NasaPics.node.js"
     ]
   },
   "devDependencies": {
